@@ -7,8 +7,3 @@ app = Flask(__name__)
 def main():
 # Функция получает тело запроса и возвращает ответ
     return "Hello from github"
-
-@app.route("/next")
-def main():
-# Функция получает тело запроса и возвращает ответ
-    return "Hello from next"
