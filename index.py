@@ -6,4 +6,4 @@ app = Flask(__name__)
 @app.route("/"])
 def main():
 # Функция получает тело запроса и возвращает ответ
-    return "Hello World"
+    return "Hello from github"
