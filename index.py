@@ -3,7 +3,12 @@ from flask import Flask, request, redirect, session, url_for
 
 app = Flask(__name__)
 
-@app.route("/"])
+@app.route("/")
 def main():
 # Функция получает тело запроса и возвращает ответ
     return "Hello from github"
+
+@app.route("/next")
+def main():
+# Функция получает тело запроса и возвращает ответ
+    return "Hello from next"
